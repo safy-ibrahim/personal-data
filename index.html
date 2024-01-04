@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data</title>
+</head>
+<body>
+    <form method="post">
+       <fieldset style="background-color: rgb(229, 225, 218);">
+          <legend style="background-color: rgb(54, 123, 250);padding: 3px;">Personal Data</legend>
+          <br><br>
+          <fieldset style="background-color: rgb(251, 249, 241);">
+                <legend style="background-color: rgb(54, 123, 250); padding: 10px 3px;">Your Name</legend>
+                <label for="firstName">
+                    <pre style="display: inline;">first name  : </pre>
+                </label>
+                <input type="text" id="firstName" placeholder="ex: safya" name="firstName">
+                <br><br>
+                <label for="secondName">
+                    <pre style="display: inline;">second name : </pre>
+                </label>
+                <input type="text" id="secondName" placeholder="ex: ibrahim" name="secondName">
+           </fieldset>
+           <br><br><br><br>
+           
+            <label for="telephon">
+                <pre style="display: inline;">your phone   : </pre>
+            </label>
+            <input type="tel" id="telephon" name="telephonNumber">
+            <br><br>
+            <label for="email">
+                <pre style="display: inline;">Email        : </pre> 
+            </label>
+            <input type="email" id="email" name="userEmail">
+            <br><br>
+            <label for="password">
+                <pre style="display: inline;">password     : </pre>  
+            </label>
+            <input type="password" name="userPassword" id="password">
+            <br><br>
+            <label for="password">
+                <pre style="display: inline;">re-password  : </pre>
+            </label>
+            <input type="password" name="userPasswordConfirm" id="password">
+            <br><br><br><br>
+
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">male</label>
+            <br><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">female</label>
+            <br><br>
+            <input type="checkbox" id="student" name="status" value="student">
+            <label for="student">student</label>
+            <br><br>
+            <input type="checkbox" id="graduated" name="status" value="graduated">
+            <label for="graduated">Graduated</label>
+            <br><br><br><br>
+
+            <select name="countries">
+                <optgroup label="Africa">
+                    <option value="Egypt" selected> Egypt</option>
+                </optgroup>
+                <optgroup label="Asia">
+                    <option value="Palestine">Palestine</option>
+                    <option value="Türkiye">Türkiye</option>
+                </optgroup>
+                <optgroup label="Europe" disabled>
+                    <option value="Germany">Germany</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Switzerland">Switzerland</option>
+                </optgroup>
+            </select>
+           <br><br>
+           <button type="submit">
+                <img src="images/download.jpeg" alt="this is submit image" width="60">
+           </button> 
+       </fieldset>
+       
+
+    </form>
+</body>
+</html>
